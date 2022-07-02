@@ -1,0 +1,77 @@
+// app global css in SCSS form
+
+.bg-gradient-primary {
+  background: linear-gradient(145deg, #1976d2 10%, #0f477e 80%);
+}
+
+.bg-gradient-red {
+  background: linear-gradient(145deg, #e53935 10%, #b71c1c 80%);
+}
+
+.bg-gradient-yellow {
+  background: linear-gradient(145deg, #fdd835 10%, #f57f17 80%);
+}
+
+.bg-gradient-green {
+  background: linear-gradient(145deg, #43a047 10%, #1b5e20 80%);
+}
+
+.bg-gradient-blue {
+  background: linear-gradient(145deg, #1e88e5 10%, #0d47a1 80%);
+}
+
+.bg-gradient-gray {
+  background: linear-gradient(145deg, #757575 10%, #212121 80%);
+}
+
+.text-gradient-primary {
+  background: linear-gradient(145deg, #1976d2 30%, #0f477e 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-red {
+  color: #c62828;
+  background: linear-gradient(145deg, #e53935 30%, #b71c1c 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-yellow {
+  color: #f9a825;
+  background: linear-gradient(145deg, #fdd835 30%, #f57f17 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-green {
+  color: #2e7d32;
+  background: linear-gradient(145deg, #43a047 30%, #1b5e20 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-blue {
+  color: #1565c0;
+  background: linear-gradient(145deg, #1e88e5 30%, #0d47a1 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gray {
+  color: #424242;
+  background: linear-gradient(145deg, #757575 30%, #212121 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link-icon {
+  padding-right: 0;
+  min-width: 40px;
+}
